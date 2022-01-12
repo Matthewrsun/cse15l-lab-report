@@ -2,11 +2,15 @@
 ## page formatting stuff
 
 *this line is in Italics*
+
 **but this one is bold.**
+
 [recursive link](https://matthewrsun.github.io/cse15l-lab-reports/index.html)
+
 ![Bunny](https://www.petakids.com/wp-content/uploads/2015/11/Cute-Red-Bunny.jpg)
 
 > Stop quoting me.
+
 -Sun Tzu, *Art of War*
 
 - Bread
