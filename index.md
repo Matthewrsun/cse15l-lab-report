@@ -30,3 +30,5 @@
 this one is for the thick pieces of code
 can't wait to use this
 ```
+now I'm editing offline on VSCode!
+I can see the changes being made in real time **NOICE**
