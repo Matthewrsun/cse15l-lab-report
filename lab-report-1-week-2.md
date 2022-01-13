@@ -1,1 +1,1 @@
-![CSE15L Screenshot](CSE15Lab1.png)
+![Lake](Lake.png)
