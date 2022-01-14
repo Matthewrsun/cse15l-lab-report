@@ -37,7 +37,7 @@ Here is an example, where I ran the command `ls -a`.
 
 ![ls -a](Lab1-3.png)
 
-## Moving Files with `scp`
+## Moving Files with scp
 
 A command we are going to use now is `scp`, which copies a file from the client (the device you're using) onto the server. This command is run from the client. In my example, I used a file called WhereAmI.java. The command I used was this:
 
