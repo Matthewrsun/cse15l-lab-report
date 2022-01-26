@@ -1,14 +1,14 @@
-# Week 2 Lab Report
+# **Week 2 Lab Report**
 
 [To Home](https://matthewrsun.github.io/cse15l-lab-reports/)
 
-## Installing VSCode
+## **Installing VSCode**
 
 To install VSCode, visit the Visual Studio Code website at [this link](https://code.visualstudio.com/). Pick the version for your operating system, and once you finish downloading VSCode, run the program. A window should appear like the one below:
 
 ![vsc pic](Lab1-1.png)
 
-## Remotely Connecting
+## **Remotely Connecting**
 
 The next step is to be able to connect to a remote server. For this, we're going to use a program called OpenSSH, which can be downloaded here: [OpenSSH Install Instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). After this, you can login to the remote ieng6 server using your unique student account, which can be found here: [UCSD Account Finder](https://sdacs.ucsd.edu/~icc/index.php). You can also find and change your account's password there too.
 
@@ -21,7 +21,7 @@ Don't forget to replace the letters after "wi22" with your personal account! Ent
 
 ![ssh login](Lab1-2.png)
 
-## Trying Some Commands
+## **Trying Some Commands**
 
 Once you're in, you can try using some commands in the server. Some such commands include:
 
@@ -37,7 +37,7 @@ Here is an example, where I ran the command `ls -a`.
 
 ![ls -a](Lab1-3.png)
 
-## Moving Files with scp
+## **Moving Files with scp**
 
 A command we are going to use now is `scp`, which copies a file from the client (the device you're using) onto the server. This command is run from the client. In my example, I used a file called WhereAmI.java. The command I used was this:
 
@@ -49,7 +49,7 @@ A prompt will pop up asking for your password, similar to when you were logging 
 
 ![scp2](Lab1-4b.png)
 
-## Setting an SSH Key
+## **Setting an SSH Key**
 
 Not bad so far, right? However, it would be nice to be able to do all these things without needing to enter in your password every time you do something. So, it's time to set up an SSH key. This creates a key on both your client and the server that contains your password so that you don't need to enter it when logging in. Here is some convenient code that Professor Joe has graciously provided us with:
 
@@ -84,7 +84,7 @@ Once you've finished setting up your SSH Key, you should be able to use `ssh` an
 
 ![sshkey](Lab1-5.png)
 
-## Optimizing Remote Running
+## **Optimizing Remote Running**
 
 Believe it or not, this process can be made even more streamlined! For example, commands can be put at the end of your ssh command:
 
@@ -98,7 +98,17 @@ In addition, you can run multiple commands, separating them with semicolons:
 
 `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
-## This is the end!
+Another easy way to optimize running your code is by using shortcuts that reduce the number of keystrokes needed to run your code.
+
+For example, in the image above, I ran `ssh cs15lwi22ahf@ieng6.ucsd.edu "ls"`. It's only one line of code, but it takes an entire 36 keystrokes, 39 if you count the `ctrl` input as well!
+
+Now, the first time you type in the code, you will need to type out the entire line. However, the next time you want to run the same code, you can simply use the up arrow, ↑. This copies the last command you ran onto the terminal, and if you press the up arrow again it takes the command that ran before it.
+
+With this method, you can cut down your keystrokes from 39 imputs to only 2 or 3, if you ran code before it.
+
+A more common example is compiling and running code. For this, you use 2 commands, one to compile and one to run. You can use the method of putting them in the same line, separated by a semicolon to make the process require only one line. To go further, after you edit your code, you simply need to press the up arrow to instantly bring up the command line again, cutting your keystrokes by about half!
+
+## **This is the end!**
 
 Well, that's all there is to this lab report. I hope this was helpful and I wish you luck on your computer programming adventure!
 
