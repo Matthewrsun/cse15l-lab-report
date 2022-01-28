@@ -1,4 +1,7 @@
-# Week 4 Lab Report: MarkdownParse.java
+# **Week 4 Lab Report: MarkdownParse.java**
+
+[To Home](https://matthewrsun.github.io/cse15l-lab-reports/)
+
 
 In this Lab, I looked at the MarkdownParse.java file, which reads markdown files and returns the links in the file in brackets, separated by commas. This code was started by Professor Joe, and my task was to fix bugs that were found in the file.
 
@@ -71,3 +74,5 @@ To fix this bug, we added a flag boolean that checks if there is an exclamation 
 ## **Closing**
 
 This was my lab report for weeks 3 and 4, where my group practiced fixing bugs in a program. Thank you for reading my report!
+
+[To Home](https://matthewrsun.github.io/cse15l-lab-reports/)
