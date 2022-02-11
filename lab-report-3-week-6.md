@@ -38,3 +38,5 @@ You can use this to directly use `scp` to your school account:
 ![scp](LR3/scpImage.png)
 
 With this, the time it takes to switch to a server is greatly reduced. Yay, efficiency!
+
+[To Home](https://matthewrsun.github.io/cse15l-lab-reports/)
