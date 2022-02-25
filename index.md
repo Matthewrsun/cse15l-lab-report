@@ -6,6 +6,8 @@
 
 ## **[Lab Report 3](lab-report-3-week-6.html)**
 
+## **[Lab Report 4](lab-report-4-week-8.html)**
+
 # Ignore all of the stuff below, it was for the Markdown Practice :)
 [Lab Report 1](https://matthewrsun.github.io/cse15l-lab-reports/lab-report-1-week-2)
 
