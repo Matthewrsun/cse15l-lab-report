@@ -2,7 +2,9 @@
 
 [To Home](https://matthewrsun.github.io/cse15l-lab-reports/)
 
-Hello! In this lab report, I will be covering additional debugging of the MarkdownParse code. I will be using my own MarkdownParse repository, as well as a repository from another person. These two repos will be tested using 3 different snippets of text to test if the code returns the intended output. These snippets are shown below:
+Hello! In this lab report, I will be covering additional debugging of the MarkdownParse code. I will be using my own MarkdownParse repository, as well as a repository from another person. [Here is the link to the other person's repository](https://github.com/iireneliao/markdown-parse). Please note that they have likely made changes in the time since their code was tested by me. These two repos will be tested using 3 different snippets of text to test if the code returns the intended output. 
+
+The snippets used are shown below:
 
 ## Snippet 1
 
