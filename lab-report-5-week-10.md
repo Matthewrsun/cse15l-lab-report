@@ -62,6 +62,16 @@ This means that the output for repo 1 is correct, while the implementation of re
 
 The issue with the code in repo 1 is that the link is substringed at the closest close parentheses without checking for nested paired parentheses.
 
-![]
+![diff2 bug](LR5/diff2OwnRepo.png)
+
+Because of this, the link is substringed at the first close parentheses, returning foo(and(bar instead of foo(and(bar)). To fix this code, I can create a method similar to the one in repo 1, shown below:
+
+![diff2 given repo](LR5/diff2GivenRepo.png)
+
+By implementing this method, the code in my repo should be able to check for nested parentheses pairs and parse the test file's link correctly.
+
+## Conclusion
+
+This marks the end of Lab Report 5. Thank you for reading!
 
 [To Home](https://matthewrsun.github.io/cse15l-lab-reports/)
